@@ -32,6 +32,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # React frontend
     "http://127.0.0.1:3000",
     "http://193.188.23.254:8000",  # Serveringiz
+    "https://rozmartdelivery.uz",
+    "https://rozmetov-mini-app.vercel.app"
 ]
 
 CORS_ALLOW_METHODS = ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"]
@@ -41,7 +43,9 @@ CORS_ALLOW_HEADERS = ["Content-Type", "Authorization", "X-CSRFToken"]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "http://193.188.23.254:8000"
+    "http://193.188.23.254:8000",
+     "https://rozmartdelivery.uz",
+    "https://rozmetov-mini-app.vercel.app"
 ]
 
 CSRF_COOKIE_SECURE = False  # Agar HTTPS bo'lsa, True qiling
